@@ -1,7 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .svg-style {
   @apply w-6 h-6;
+}
+
+.btn {
+  @apply bg-rose-600 px-8 py-2 rounded-full text-white font-bold hover:bg-sky-600 active:bg-sky-700 transition-all duration-300;
+}
+
+.icon {
+  @apply h-16 w-16 text-white;
+}
+
+.nav-style {
+  @apply flex items-start gap-8 py-3 pl-6 w-full cursor-pointer hover:bg-sky-600 active:bg-sky-700 transition-all duration-300;
+}
+
+.box-style {
+  @apply bg-white p-4 pb-12 rounded-lg  border-l-8 border-sky-600 relative;
+}
+
+.box-header-style {
+  @apply font-bold;
+}
+
+.box-text-style {
+  @apply pb-8 text-sm;
+}
+
+.main-icon-style {
+  @apply flex justify-end gap-4 absolute top-36 right-8;
+}
+
+.trending-style {
+  @apply flex items-center gap-2;
+}
+
+.link-style {
+  @apply hover:text-sky-600 active:text-sky-700 transition-all duration-200;
 }
